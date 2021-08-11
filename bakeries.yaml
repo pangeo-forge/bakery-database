@@ -12,10 +12,10 @@ devseed.bakery.development.aws.us-west-2:
           secret: DEVSEED_BAKERY_DEVELOPMENT_AWS_US_WEST_2_SECRET
   cluster:
     type: aws.fargate
-    pangeo_forge_version: "0.4.0"
-    pangeo_notebook_version: "2021.06.05"
+    pangeo_forge_version: "0.5.0"
+    pangeo_notebook_version: "2021.07.17"
     prefect_version: "0.14.22"
-    worker_image: pangeo/pangeo-forge-bakery-images:pangeonotebook-2021.06.05_prefect-0.14.22_pangeoforgerecipes-0.4.0
+    worker_image: pangeo/pangeo-forge-bakery-images:pangeonotebook-2021.07.17_prefect-0.14.22_pangeoforgerecipes-0.5.0
     cluster_options:
       vpc: vpc-01160815e8310bbe0
       cluster_arn: arn:aws:ecs:us-west-2:552819999234:cluster/pangeo-forge-aws-bakery-dask-test-bakeryclusterdasktest4E1A8264-k6Cnpc8EuUpH
