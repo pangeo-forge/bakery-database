@@ -48,5 +48,5 @@ devseed.bakery.development.azure.westeurope:
     flow_storage: pangeof-bakery-flow-storage-container
     flow_storage_protocol: abfs
     flow_storage_options:
-      secret: DEVSEED_BAKERY_DEVELOPMENT_AZURE_UKWEST_CONNECTION_STRING
+      secret: DEVSEED_BAKERY_DEVELOPMENT_AZURE_WESTEUROPE_CONNECTION_STRING
     max_workers: 20
