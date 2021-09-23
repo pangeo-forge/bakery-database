@@ -38,7 +38,7 @@ devseed.bakery.development.azure.westeurope:
       private:
         protocol: abfs
         storage_options:
-          secret: DEVSEED_BAKERY_DEVELOPMENT_AZURE_UKWEST_CONNECTION_STRING
+          secret: DEVSEED_BAKERY_DEVELOPMENT_AZURE_WESTEUROPE_CONNECTION_STRING
   cluster:
     type: azure.aks
     pangeo_forge_version: 0.5.0
